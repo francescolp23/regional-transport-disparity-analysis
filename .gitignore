@@ -1,0 +1,41 @@
+# --- MAC & SISTEMA ---
+.DS_Store
+.DS_Store?
+._*
+
+# --- PYTHON & JUPYTER ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# --- AMBIENTI VIRTUALI ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- FILE COMPRESSI (Mai caricarli) ---
+*.zip
+*.tar
+*.gz
+*.rar
+
+# --- DATI (La parte più importante!) ---
+# Ignora tutti i file dentro le cartelle dati...
+data/raw/*
+data/processed/*
+data/external/*
+
+# ...MA mantieni i file .gitkeep (così le cartelle non spariscono)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# --- DOCUMENTI PERSONALI ---
+# Se fai bozze o note personali, chiamale "notes.txt" e verranno ignorate
+notes.txt
+TODO.md
+
+
