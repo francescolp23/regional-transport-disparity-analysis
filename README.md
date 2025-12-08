@@ -17,7 +17,7 @@ Infrastructure inequality is a critical national challenge.
 
 ## 📊 Data Sources
 This project relies on **Official Statistics** and Open Data. Primary sources include:
-* **ISTAT:** [Inserire qui specifici dataset, es. "Capacità degli esercizi ricettivi", "Infrastrutture viarie"]
+* **ISTAT:** [Dataset]
 * **Ministero delle Infrastrutture e dei Trasporti (MIT):** Open data on transport networks.
 * **Eurostat:** Regional benchmarks (NUTS 2 level).
 
@@ -25,7 +25,6 @@ This project relies on **Official Statistics** and Open Data. Primary sources in
 The analysis follows a standard Data Science pipeline:
 1.  **Data Cleaning & Preprocessing:** Handling missing values, normalization of socio-economic indices.
 2.  **Exploratory Data Analysis (EDA):** Visualizing geographical distributions of transport nodes.
-3.  **Dimensionality Reduction:** PCA (Principal Component Analysis) to manage high-dimensional official data.
 4.  **Clustering:**
     * *K-Means* to identify macro-groups of regions.
     * *Hierarchical Clustering* to detect sub-regional similarities.
@@ -33,7 +32,7 @@ The analysis follows a standard Data Science pipeline:
 ## 📂 Repository Structure
 ```text
 ├── data/
-│   ├── raw/             # Original official datasets (immutable)
+│   ├── raw/             # Original official datasets (not mutable)
 │   ├── processed/       # Cleaned data ready for analysis
 │   └── external/        # Socio-economic auxiliary data
 ├── notebooks/           # Jupyter Notebooks for EDA and Clustering
