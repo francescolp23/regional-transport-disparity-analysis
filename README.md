@@ -176,4 +176,4 @@ PNRR and structural funds should be **cluster-oriented**:
 
 ## 👤 Author
 
-Academic projec
+Academic project conduceted by Francesco La Piana
